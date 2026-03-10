@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Image Gallery</title>
+
+  <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Page Title -->
+  <h1>Interactive Image Gallery</h1>
+
+  <!-- 
+    This container will hold all the gallery images.
+    The images will be added dynamically using JavaScript.
+  -->
+  <div id="gallery"></div>
+
+
+  <!-- 
+    Lightbox container
+    This will display the HD image and caption when a user clicks an image.
+    It starts hidden and becomes visible when needed.
+  -->
+  <div id="lightbox" class="hidden">
+
+    <!-- HD image will appear here -->
+    <img id="lightbox-img" src="" alt="Large preview">
+
+    <!-- Caption describing the image -->
+    <p id="caption"></p>
+
+  </div>
+
+  <!-- Link to JavaScript file -->
+  <script src="script.js"></script>
+
+</body>
+</html>
